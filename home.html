@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>SIS BIO BANK</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@700&family=Karla:wght@500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
+</head>
+<body>
+	<section id="page">
+		<section id="sidebar">
+		<a href="#"><img src="images/logo.png" alt="Arava" class="logo"></a>
+		<center>
+			<button id="sidebar-buttons">
+				<img class="icons" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACYElEQVR4nO2Z227TQBCG9542s04TSClc8ybl9DoBeYdKFn0C1AfoA1Ck8gDlCgFSOVQcqjYg0XKZUO86KQcJLkATr1MnipM0id1daX9plMg7sufbGe9ONow5OTk5OTnNUaH34Lrk4okC7CiO/4wywI7kuN1eXLsxCUR44QHz0SY5Soo1E6Sbia6jeNys1mvMMDWr9ZrkuJXEmOmYlJOJEIlaFVyOy0y0WZaS1DHDpcbF6UAKljI1I1HJX1UgjsmiEt60FkRyPEotrUdWgigIuAL8cbbpiZ8R+J5VIBSw5Lir94W/ZPr726gUlAsHCT3/lgL8RjZJjacg3uhy+kI79UkZVyTHhobZ6ywElUJB+mtcfB0LUQrKNOva//NJ+f61ZOz70r2rCvBAl9mH00vB5UJA6EEK8FcPBMTvYQ9P1F70lyTHdzoTDcrCoE+zWq8pwH3ts5s7iIb4qB/4h0zP5KdhMDGE2NOZOKTZH3VvSaUH+DJXkM6CqFLqdXt9QLM4eI36oox3ojEKYpzmBjIMImuMYOJr+H6STBQGki4n+hxWQtklh/vz6KzVrCCTQCTSWRhYBMSVWSFmBjkPxLTLcu4g00CQaHOMN0pqBv1VdtEgkovX54XIU2paEAXiFS2dJkAY2TROK+VAbMuI5Niy5ThIcmxlOkmOm9ppK90nmaJWBZfPDhFxs29QgXgx7ojSeAPxvHe6aLUBRrTZPdOp2maWSYF4qmPfYdLDuymyR/Nq7PJUM/4FuZHEHXp4uzugQKxbXFYP+yhDz79DKbLinYHuHz47vUw4OTk5OTmx2fQfpRQyY5DVBVEAAAAASUVORK5CYII=" alt="performance-macbook"/><p class="button-text"><b>Dashboard</b></p>
+			</button>
+
+			<button id="sidebar-buttons">
+				<img class="icons" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAkklEQVR4nO3UQQoCMQwF0Nwg7a3sXMg2Gz1ru47xBoqg4GIKiZMIg37orsmDpi3AP9pwrosgDUl0Uy2kwZmKGjA1Ty+kdT3wLIraD78LiHb4bkCaDN/riGTW52uAbHwH4gZg65zrwQxcEp0ijg7WmvsC2M6mArcHiB98ghaAM5XHQMMAS65Ix1DgHYHIyOTC7DN3KHF5WQojT4YAAAAASUVORK5CYII=" alt="performance-macbook"/><p class="button-text">Chats</p>
+			</button>
+
+			<a href="reminders.html">
+			<button id="sidebar-buttons">
+				<img class="icons" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACmUlEQVR4nO1ZS2sUQRDunHezXZO4Rq8iohdN1JsiiAiKP0TRY5Tdqo3s3/DxB0zE5OTjECKa36DJOQpx9lE9bnJfqXmYFVx3JjsvpD9oGHpqeuqjXnSVUhYWFlPDq+FtBnzJgLtG06EBGma6NB0aTTsM9MJovDU1gZ+zzXNG46fMFZ+wGPCjV2uePRYJhtYNBuLgIPrBgMTQuLS/sFxRGWN/YbliNC0yUEv+HZLps9O6ntgSRyTwlVtvV1VB6M4/mWWg1YhMIstE7iQkhkrNqIIxVGqGAddC79iKHdiROxVpib9bBt0gGcRIAJKdQmuQKhkYcCXU7Xkc4d1Q+OLovlejqwz4wWg8CBa993TzisoRRtNimJ534ggPRHjUrXpzKxcYsOvV8L5bf3xKljwzUEfeqRzdywREBhOFo9w9usdAGwz0kB26ZzR+N5q+9R266+8BrmepfBz9EhBBd1DFuhA4qr64d1Bpn5R3f3yvcTu9Co/b/wkR+pw2kXVxI3Enn4zGvb7TvMOAjxjojcoRZhoiQbBTp+/Qg84JOi1LnmWvO4/ns1Q8VSL+vqbLRuM7P6sF663RjSWVM8y0RMoCY4mUqLKnFOzFV/YU0q+t7ENb2cFW9gC2sucEYwtiyWCmtYit7CnD2Mqu7J19aO/sqcTI2AZd8Xf2bpIG3biWaRnu7OZ3yxS/ThT2x11BN76lSgYGehrq9myisLTso7GCmFKVBL25dk1cObTIzVgfycwuJLNankEPvQ512oz9oYy3ZMwVxspakZbpBZaISPQ83TyT6AAZPI6Qcf0hi24s5THFcuvtqvxLYiJyJyHRd/DasQ4MLENbxY+naTOxJcYlABl3Sdrze1pZK6/9vtkXyU6xA9vCwkL9C78AFFy1Bcb9IR4AAAAASUVORK5CYII=" alt="performance-macbook"/><p class="button-text">Reminders</p>
+			</button>
+			</a>
+
+			<button id="sidebar-buttons">
+				<img class="icons" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACYElEQVR4nO2Z227TQBCG9542s04TSClc8ybl9DoBeYdKFn0C1AfoA1Ck8gDlCgFSOVQcqjYg0XKZUO86KQcJLkATr1MnipM0id1daX9plMg7sufbGe9ONow5OTk5OTnNUaH34Lrk4okC7CiO/4wywI7kuN1eXLsxCUR44QHz0SY5Soo1E6Sbia6jeNys1mvMMDWr9ZrkuJXEmOmYlJOJEIlaFVyOy0y0WZaS1DHDpcbF6UAKljI1I1HJX1UgjsmiEt60FkRyPEotrUdWgigIuAL8cbbpiZ8R+J5VIBSw5Lir94W/ZPr726gUlAsHCT3/lgL8RjZJjacg3uhy+kI79UkZVyTHhobZ6ywElUJB+mtcfB0LUQrKNOva//NJ+f61ZOz70r2rCvBAl9mH00vB5UJA6EEK8FcPBMTvYQ9P1F70lyTHdzoTDcrCoE+zWq8pwH3ts5s7iIb4qB/4h0zP5KdhMDGE2NOZOKTZH3VvSaUH+DJXkM6CqFLqdXt9QLM4eI36oox3ojEKYpzmBjIMImuMYOJr+H6STBQGki4n+hxWQtklh/vz6KzVrCCTQCTSWRhYBMSVWSFmBjkPxLTLcu4g00CQaHOMN0pqBv1VdtEgkovX54XIU2paEAXiFS2dJkAY2TROK+VAbMuI5Niy5ThIcmxlOkmOm9ppK90nmaJWBZfPDhFxs29QgXgx7ojSeAPxvHe6aLUBRrTZPdOp2maWSYF4qmPfYdLDuymyR/Nq7PJUM/4FuZHEHXp4uzugQKxbXFYP+yhDz79DKbLinYHuHz47vUw4OTk5OTmx2fQfpRQyY5DVBVEAAAAASUVORK5CYII=" alt="performance-macbook"/><p class="button-text">Dashboard</p>
+			</button>
+		</center>
+		<a href="about.html"><img src="images/about.png" class="about"></a>
+	</section>
+
+	<section id="main-content">
+		<h1 class="value">Value of the week: Positive Attitude</h1>
+		<h1 class="currentclass">11A</h1>
+		<h1 id="time" class="time">Clock loading....</h1>
+		<p id="date" class="date">checking the date...</p>
+
+		<div id="dash-button">
+			<a href="question-paper.html">
+			<div id="quick-button" >
+				<img src="images/icon/exam.png" class="dashicon" alt="Question-Papers">
+			</div>
+			</a>
+			<div id="quick-button">
+				<img src="images/icon/tt.png" class="dashicon" alt="Timetable">
+			</div>
+			<div id="quick-button">
+				<img src="images/icon/textbook.png" class="dashicon" alt="Textbook-pages">
+			</div>
+			<div id="quick-button">
+			
+			</div>
+			<div id="quick-button">
+			
+			</div>
+		</div>
+	</section>
+	</section>
+
+	
+</body>
+<script type="text/javascript" src="js/clock.js"></script>
+</html>

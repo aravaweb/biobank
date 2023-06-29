@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login | SIS BIO BANK</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@700&family=Karla:wght@500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
+</head>
+<style type="text/css">
+.logo {
+	width: 300px;
+	margin-top: -50px;
+}
+#screen {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 70px 0 70px;
+}
+.illust {
+	width: 500px;
+	margin-top: -30px;
+}
+#loginboard {
+	width: 400px;
+	height: 340px;
+	background: #fff;
+	border-radius: 30px;
+	margin-top: -50px;
+}
+.login {
+	font-family: 'Karla', sans-serif;
+	font-size: 30px;
+	margin-left: 30px;
+	color: #ef107a;
+
+}
+.typp {
+	width: 240px;
+	height: 40px;
+	border-radius: 20px;
+	border-color: #ef107a;
+	color: #ef107a;
+	font-size: 15px;
+}
+.login-button {
+	width: 100px;
+	height: 50px;
+	border-radius: 20px;
+	border-color: transparent;
+	background: #ef107a;
+	color: #fff;
+	font-size: 20px;
+}
+.login-button:hover {
+	background: #ff4ca1;
+}
+</style>
+<body style="background: #FDE8F2;">
+	<center>
+		<img src="images/logo.png" class="logo">
+	</center>
+	<div id="screen">
+		<img src="images/illust.svg" class="illust">
+		<div id="loginboard">
+			<h1 class="login">Login:</h1><br>
+			<center>
+			<input type="text" placeholder="Username" id="text1" class="typp"><br><br>
+   			<input type="password" placeholder="Password" id="text2" class="typp"/><br /><br />
+   			  <input type="button"  value="Login"  onclick="javascript:validate()" class="login-button" ></input>
+		</div>
+			</center>
+	</div>
+<script type="text/javascript" src="js/login.js"></script>
+</body>
+</html>

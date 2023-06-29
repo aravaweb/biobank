@@ -1,0 +1,163 @@
+body {
+	background: #fff;
+	margin: 0;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+}
+ul li {
+	display: inline-block;
+	margin-right: 34px;
+	font-family: 'Karla', sans-serif;
+}
+ul li a {
+	color: #000000;
+	list-style: none;
+	font-size: 16px;
+	text-decoration: none;
+
+}
+ul li a:hover {
+	color: #584EFF;
+	list-style: none;
+	font-size: 16px;
+	text-decoration: none;
+
+}
+.logo {
+	width: 230px;
+	margin-top: -40px;
+	transition: 0.25s;
+}
+.logo:hover {
+	transform: rotate(-10deg);
+}
+#sidebar {
+	background: #FDE8F2;
+	width: 220px;
+	position: fixed;
+	height: 100%;
+	margin-top: -4px;
+}
+.icons {
+	width: 35px;
+	margin-left: 10px;
+	color: #fff;
+}
+#sidebar-buttons {
+	width: 190px;
+    	height: 50px;
+    	display: flex;
+    	border-radius: 30px;
+    	background: #fff;
+    	border-color: transparent;
+    	margin-bottom: 20px;
+    	transition: 0.2s;
+}
+#sidebar-buttons:hover {
+	transform: scale(1.1);
+}
+.button-text {
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: 10px;
+    	color: #ef107a;
+    	text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+#main-content {
+	margin-left: 220px;
+}
+
+.value {
+	font-size: 18px;
+	color: #ef107a;
+	font-family: 'Karla', sans-serif;
+	margin: 5px 10px;
+}
+.time {
+	font-size: 60px;
+	text-align: center;
+	color: #ef107a;
+	font-family: 'Bagel Fat One', cursive;
+}
+.date {
+	font-size: 20px;
+	text-align: center;
+	color: #ef107a;
+	margin-top: -60px;
+	font-family: 'Bagel Fat One', cursive;
+}
+.currentclass {
+	text-align: center;
+	margin-top: -30px;
+	margin-right: 10px;
+	background: #FFD9EB;
+	color: #ef107a;
+	width: 100px;
+	height: 30px;
+	border-radius: 30px;
+	float: right;
+	font-size: 25px;
+	font-family: 'Karla', sans-serif;
+}
+#quick-button {
+	width: 200px;
+	height:200px;
+	background: #FFCAE3;
+	border-radius: 30px;
+   	margin-right: 20px;
+}
+#dash-button {
+	margin-top: 100px;
+   	margin-left: 35px;
+   	display: flex;
+}
+.about {
+	width: 150px;
+	margin-top: 90px;
+	margin-left: 40px;
+	filter: opacity(20%);
+}
+.about:hover {
+	filter: opacity(60%);
+}
+.dashicon {
+	width: 110px;
+	margin-top: 40px;
+	margin-left: 45px;
+}
+.thumbnail {
+	    width: 105px;
+    border-radius: 20px 0 0 20px;
+    margin-left: -5px;
+}
+#pdfbutton {
+	display: flex;
+	margin-bottom: 20px;
+	width: 370px;
+	height: 80px;
+	border-radius: 20px;
+	background: #FDE8F2;
+	border-color: transparent;
+	transition: 0.25s;
+}
+#pdfbutton:hover {
+	transform: scale(1.1);
+}
+.pdf-text {
+	font-size: 20px;
+	margin-left: 10px;
+	color: #ef107a;
+	text-align: left;
+	margin-top: -1px;
+}
+#pdf-buttons {
+	margin: 30px;
+}
+#question-pdf {
+	display: flex;
+}
