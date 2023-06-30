@@ -110,6 +110,11 @@ a {
 	background: #FFCAE3;
 	border-radius: 30px;
    	margin-right: 20px;
+   	transition: 0.21s;
+}
+#quick-button:hover {
+		transform: scale(1.1);
+
 }
 #dash-button {
 	margin-top: 100px;
@@ -160,4 +165,18 @@ a {
 }
 #question-pdf {
 	display: flex;
+}
+.button-name {
+	text-align: center;
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;
+	color: #ef107a;
+
+}
+iframe {
+	width: 95%;
+	height: 555px;
+	border-radius: 20px;
+	border-color: transparent;
+	box-shadow: 0 0 20px 7px rgb(255 170 210);
 }

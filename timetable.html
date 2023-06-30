@@ -14,20 +14,21 @@
 	<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
 </head>
 <style type="text/css">
-	@keyframes fadeInUp {
-  0% {
-    transform: translateY(100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0%);
-    opacity: 1;
-  }
+	.drop-in {
+ animation: drop-in 2s ease 200ms backwards;
 }
 
-.fadeInUp-animation {
-  animation: 1.5s fadeInUp;
+@keyframes drop-in {
+ from {
+  opacity: 0;
+  transform: translateY(-100px);
+ }
+ to {
+  opacity: 1;
+  transform: translate(0px);
+ }
 }
+
 </style>
 <body>
 	<section id="page">
@@ -52,7 +53,7 @@
 
 			<a href="timetable.html">
 				<button id="sidebar-buttons">
-				<img class="icons" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACkklEQVR4nO1ZW2sTURA+Xl+qnUlF+h+qf0Cf1UcV2r7ri0/SNg1CZiIEfPCC/gilSn+If6Gx4u1Ni9iciZcq9sGV2ZzFVHKyya5mN+R8MBD2ZIb5zlyzMSYgICBgYhGZ5nGL/ECAPghyVEoBfi/A99RXLxGLdL9wR3FYQnTXSyRmixy1K/Vzo0QyMT5a/LPptSuN80lkSuHQf9WTsjnkQSCShhARDKkVDVXskyJmaoiYEVE6PSmbQx4EImkIEcGQWtF0FbtMiJipIWL+dajHrSdlc8iDQCQNISJ4MLUic+NYBxrLAvzMIr0U4G8C/N0ivRPgTQFejEzzaKlTS4CuWuTXaZ3KIr0pLZEDLwaBtgR4rV25fWZnvjajop8FqCrArV5SkWkeHmi4CLFIPy3yzcgsH/ER1zOLvGKR9we+bSySRAcaF4aNdGeWLiZkLNYve4mkJ0V+PS3aJN81EqPatUir7hJeaZPI7VBWPQFaSmrCl04ywG7cvYBedG3wYm6HsurF7bTrxFpWuwKNdXcZT3M7lFUvng3I0e4cLWS1267QWXcZ27kdyqpngX6ozqdTt072O9+do4U0u6rriHzJ7VBWPQH67CMiwNcEaM852So5ke5w02GXPNuZr80I0JM/w5Ef67O01NJ1pq9DYxWgap9OtidQv55+GVRzhDf+Png+fiLc6m2/AnSnN0o+dNsvbzviS6bgf5DfuoG4Mqq+6O7lG4jjhkW+4ojs69phhkRntn5JdSzyr74rShGwyI8SMhZpVVPG9103zaupS2MRiIw5ZJEe9taMQGNdO9LH080TKnF30sJ2K4lGQkl41/ii08y6aT9ItCZKk04+aANwP3U340YQt2H6GkcCeEO7k6+wfwN1DDNWSYl2SgAAAABJRU5ErkJggg==" alt="performance-macbook"/><p class="button-text">Timetable</p>
+				<img class="icons" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACkklEQVR4nO1ZW2sTURA+Xl+qnUlF+h+qf0Cf1UcV2r7ri0/SNg1CZiIEfPCC/gilSn+If6Gx4u1Ni9iciZcq9sGV2ZzFVHKyya5mN+R8MBD2ZIb5zlyzMSYgICBgYhGZ5nGL/ECAPghyVEoBfi/A99RXLxGLdL9wR3FYQnTXSyRmixy1K/Vzo0QyMT5a/LPptSuN80lkSuHQf9WTsjnkQSCShhARDKkVDVXskyJmaoiYEVE6PSmbQx4EImkIEcGQWtF0FbtMiJipIWL+dajHrSdlc8iDQCQNISJ4MLUic+NYBxrLAvzMIr0U4G8C/N0ivRPgTQFejEzzaKlTS4CuWuTXaZ3KIr0pLZEDLwaBtgR4rV25fWZnvjajop8FqCrArV5SkWkeHmi4CLFIPy3yzcgsH/ER1zOLvGKR9we+bSySRAcaF4aNdGeWLiZkLNYve4mkJ0V+PS3aJN81EqPatUir7hJeaZPI7VBWPQFaSmrCl04ywG7cvYBedG3wYm6HsurF7bTrxFpWuwKNdXcZT3M7lFUvng3I0e4cLWS1267QWXcZ27kdyqpngX6ozqdTt072O9+do4U0u6rriHzJ7VBWPQH67CMiwNcEaM852So5ke5w02GXPNuZr80I0JM/w5Ef67O01NJ1pq9DYxWgap9OtidQv55+GVRzhDf+Png+fiLc6m2/AnSnN0o+dNsvbzviS6bgf5DfuoG4Mqq+6O7lG4jjhkW+4ojs69phhkRntn5JdSzyr74rShGwyI8SMhZpVVPG9103zaupS2MRiIw5ZJEe9taMQGNdO9LH080TKnF30sJ2K4lGQkl41/ii08y6aT9ItCZKk04+aANwP3U340YQt2H6GkcCeEO7k6+wfwN1DDNWSYl2SgAAAABJRU5ErkJggg==" alt="performance-macbook"/><p class="button-text"><b>Timetable</b></p>
 			</button>
 			</a>
 		</center>
@@ -60,89 +61,13 @@
 	</section>
 
 	<section id="main-content">
-		<h1 class="value">Question Papers</h1>
+		<h1 class="value">Teacher's Time Table</h1>
 		<h1 class="currentclass">11A</h1>
 		<br><br>
-
-			<section id="question-pdf" class="fadeInUp-animation">
-				<div>
-					<section id="pdf-buttons">
-				<a href="pdf/cs2.pdf" target="_blank">
-					<button id="pdfbutton">
-						<img src="thumb/cs2.png" class="thumbnail"><h3 class="pdf-text">L-2 Sexual Reproduction in flowering plants</h3>
-					</button>
-				</a>
-				<br>
-				<a href="pdf/cs3.pdf" target="_blank">
-					<button id="pdfbutton">
-						<img src="thumb/cs3.png" class="thumbnail"><h3 class="pdf-text">L-3 Human Reproduction</h3>
-					</button>
-				</a>
-				<br>
-				<a href="pdf/cs4.pdf" target="_blank">
-					<button id="pdfbutton">
-						<img src="thumb/cs4.png" class="thumbnail"><h3 class="pdf-text">L-4 Reproductive Health</h3>
-					</button>
-				</a>
-				<br>
-				<a href="pdf/cs5.pdf" target="_blank">
-					<button id="pdfbutton">
-						<img src="thumb/cs5.png" class="thumbnail"><h3 class="pdf-text">L-5 Principles of inheritance and variation</h3>
-					</button>
-				</a>
-				<br>
-				<a href="pdf/cs6.pdf" target="_blank">
-					<button id="pdfbutton">
-						<img src="thumb/cs6.png" class="thumbnail"><h3 class="pdf-text">L-6 Molecular Basis of Inheritance</h3>
-					</button>
-				</a>
-				<br>
-				<a href="pdf/cs8.pdf" target="_blank">
-					<button id="pdfbutton">
-						<img src="thumb/cs8.png" class="thumbnail"><h3 class="pdf-text">L-8 Human health and Diseases</h3>
-					</button>
-				</a>
-				<br>
-				<a href="pdf/cs10.pdf" target="_blank">
-					<button id="pdfbutton">
-						<img src="thumb/cs10.png" class="thumbnail"><h3 class="pdf-text">L-10 Microbes in Human Welfare</h3>
-					</button>
-				</a>
-				<br>
-				<a href="pdf/cs11.pdf" target="_blank">
-					<button id="pdfbutton">
-						<img src="thumb/cs11.png" class="thumbnail"><h3 class="pdf-text">L-11 Biotechnology: Principles and Processes</h3>
-					</button>
-				</a>
-				<br>
-				<a href="pdf/cs12.pdf" target="_blank">
-					<button id="pdfbutton">
-						<img src="thumb/cs12.png" class="thumbnail"><h3 class="pdf-text">L-12 Biotechnology and its Applications</h3>
-					</button>
-				</a>
-				<br>
-				<a href="pdf/cs13.pdf" target="_blank">
-					<button id="pdfbutton">
-						<img src="thumb/cs13.png" class="thumbnail"><h3 class="pdf-text">L-13 Organimsms and Populations</h3>
-					</button>
-				</a>
-				<br>
-				<a href="pdf/cs15.pdf" target="_blank">
-					<button id="pdfbutton">
-						<img src="thumb/cs15.png" class="thumbnail"><h3 class="pdf-text">L-15 Biodiversity and Conservation</h3>
-					</button>
-				</a>
-				
-				
-
-
-			</section>
-				</div>
-				<div>
-					
-				</div>
-			</section>
-	</section>
+		<center>
+			<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT59B9Gs5NA7Oshk1V8EtvILkcdEFbuYZTsiLCxcL9tCnOXnw1sptpbj_x0tri6UQ/pubhtml?widget=true&amp;headers=false" class="drop-in"></iframe>
+		</center>
+		
 	</section>
 
 	
